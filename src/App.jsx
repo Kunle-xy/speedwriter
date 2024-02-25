@@ -3,8 +3,8 @@ import Layout from './Layout'
 
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
-import Ai from './components/Ai/Ai'
-import Write from './Write'
+import Ai from './components/Write/Ai/Ai'
+import Write from './components/Write/Write'
 
 
 

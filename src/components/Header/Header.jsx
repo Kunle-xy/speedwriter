@@ -18,20 +18,15 @@ const Header = () => {
             <ul className="space-x-4 text-black ">
               <a href='#about' className="">About</a>
               <a href='#contact' >Contact</a>
-              <a href='#product'>Products</a>
+              <a href='#portfolio'>Products</a>
               <a href='#tutorials' >Tutorials</a>
               <a href='#team' >Team</a>
-              <a href='#paper' >Paper</a>
+
             </ul>
         </div>
         <div className="sm:hidden">
             <ul className="flex space-x-4 text-black items-center ">
-                {/* <Link to='/login' className=" hover:text-gray-600">Login</Link> */}
-                <Link to='/write' className=" hover:text-gray-600 ">
-                    {/* <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg ">
-                        Get Started
-                    </button> */}
-                </Link>
+
                 <div className="md:hidden flex-1">
                   <img src={!toggle ? menu : close} alt="menu" className="invert-[5] h-[20px]"
                   onClick={() => setToggle((prev) => !prev)} />
@@ -41,10 +36,10 @@ const Header = () => {
                   font-semibold min-w-[100px] text-white bg-gray-500 bg-opacity-[70%]" >
                   <a href='#about' className="">About</a>
                   <a href='#contact' >Contact</a>
-                  <a href='#product'>Products</a>
+                  <a href='#portfolio'>Products</a>
                   <a href='#tutorials' >Tutorials</a>
                   <a href='#team' >Team</a>
-                  <a href='#paper' >Paper</a>
+
                   </div>}
                   </div>
 
