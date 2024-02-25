@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Team from './components/Team/Team'
+import Products from './components/Products/Products'
 
 
 const Layout = () => {
@@ -8,6 +9,7 @@ const Layout = () => {
     <div >
         <Header />
         <Outlet />
+        <Products />
         <Team />
 
     </div>
